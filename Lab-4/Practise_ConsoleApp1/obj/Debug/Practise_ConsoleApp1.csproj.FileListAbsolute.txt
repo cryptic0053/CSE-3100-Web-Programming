@@ -1,0 +1,7 @@
+F:\study\3-1\2k20 Materials\Lab\CSE 3100 - Web Programming\Lab-4\Practise_ConsoleApp1\bin\Debug\Practise_ConsoleApp1.exe.config
+F:\study\3-1\2k20 Materials\Lab\CSE 3100 - Web Programming\Lab-4\Practise_ConsoleApp1\bin\Debug\Practise_ConsoleApp1.exe
+F:\study\3-1\2k20 Materials\Lab\CSE 3100 - Web Programming\Lab-4\Practise_ConsoleApp1\bin\Debug\Practise_ConsoleApp1.pdb
+F:\study\3-1\2k20 Materials\Lab\CSE 3100 - Web Programming\Lab-4\Practise_ConsoleApp1\obj\Debug\Practise_ConsoleApp1.csproj.AssemblyReference.cache
+F:\study\3-1\2k20 Materials\Lab\CSE 3100 - Web Programming\Lab-4\Practise_ConsoleApp1\obj\Debug\Practise_ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\study\3-1\2k20 Materials\Lab\CSE 3100 - Web Programming\Lab-4\Practise_ConsoleApp1\obj\Debug\Practise_ConsoleApp1.exe
+F:\study\3-1\2k20 Materials\Lab\CSE 3100 - Web Programming\Lab-4\Practise_ConsoleApp1\obj\Debug\Practise_ConsoleApp1.pdb
