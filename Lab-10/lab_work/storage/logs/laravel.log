@@ -1,0 +1,200 @@
+[2024-04-22 05:19:50] local.ERROR: Command "make:Controlelr" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:Controlelr\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view at F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('make:Controlelr')
+#1 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2024-04-22 05:47:35] local.ERROR: The file "images/mountain.jpg" does not exist {"exception":"[object] (Symfony\\Component\\HttpFoundation\\File\\Exception\\FileNotFoundException(code: 0): The file \"images/mountain.jpg\" does not exist at F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\File\\File.php:36)
+[stacktrace]
+#0 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\BinaryFileResponse.php(72): Symfony\\Component\\HttpFoundation\\File\\File->__construct('images/mountain...')
+#1 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\BinaryFileResponse.php(52): Symfony\\Component\\HttpFoundation\\BinaryFileResponse->setFile('images/mountain...', NULL, false, true)
+#2 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(219): Symfony\\Component\\HttpFoundation\\BinaryFileResponse->__construct('images/mountain...', 200, Array)
+#3 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\app\\Http\\Controllers\\DemoResponseController.php(64): Illuminate\\Routing\\ResponseFactory->file('images/mountain...')
+#4 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\DemoResponseController->demo6()
+#5 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('demo6', Array)
+#6 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\DemoResponseController), 'demo6')
+#7 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#8 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Route->run()
+#9 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(159): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(125): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#14 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(87): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#15 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#16 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#19 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#20 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#21 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#22 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#39 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#40 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#41 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('F:\\\\study\\\\3-1\\\\2k...')
+#42 {main}
+"} 
+[2024-04-22 05:48:29] local.ERROR: The file "images/mountain.jpg" does not exist {"exception":"[object] (Symfony\\Component\\HttpFoundation\\File\\Exception\\FileNotFoundException(code: 0): The file \"images/mountain.jpg\" does not exist at F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\File\\File.php:36)
+[stacktrace]
+#0 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\BinaryFileResponse.php(72): Symfony\\Component\\HttpFoundation\\File\\File->__construct('images/mountain...')
+#1 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\BinaryFileResponse.php(52): Symfony\\Component\\HttpFoundation\\BinaryFileResponse->setFile('images/mountain...', NULL, false, true)
+#2 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(219): Symfony\\Component\\HttpFoundation\\BinaryFileResponse->__construct('images/mountain...', 200, Array)
+#3 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\app\\Http\\Controllers\\DemoResponseController.php(64): Illuminate\\Routing\\ResponseFactory->file('images/mountain...')
+#4 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\DemoResponseController->demo6()
+#5 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('demo6', Array)
+#6 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\DemoResponseController), 'demo6')
+#7 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#8 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Route->run()
+#9 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(159): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(125): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#14 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(87): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#15 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#16 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#19 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#20 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#21 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#22 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#39 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#40 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#41 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('F:\\\\study\\\\3-1\\\\2k...')
+#42 {main}
+"} 
+[2024-04-22 05:55:50] local.ERROR: The file "images/mountain.jpg" does not exist {"exception":"[object] (Symfony\\Component\\HttpFoundation\\File\\Exception\\FileNotFoundException(code: 0): The file \"images/mountain.jpg\" does not exist at F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\File\\File.php:36)
+[stacktrace]
+#0 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\BinaryFileResponse.php(72): Symfony\\Component\\HttpFoundation\\File\\File->__construct('images/mountain...')
+#1 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\symfony\\http-foundation\\BinaryFileResponse.php(52): Symfony\\Component\\HttpFoundation\\BinaryFileResponse->setFile('images/mountain...', 'attachment', false, true)
+#2 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResponseFactory.php(190): Symfony\\Component\\HttpFoundation\\BinaryFileResponse->__construct('images/mountain...', 200, Array, true, 'attachment')
+#3 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\app\\Http\\Controllers\\DemoResponseController.php(69): Illuminate\\Routing\\ResponseFactory->download('images/mountain...')
+#4 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\DemoResponseController->demo7()
+#5 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('demo7', Array)
+#6 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\DemoResponseController), 'demo7')
+#7 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#8 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Route->run()
+#9 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(159): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(125): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#14 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(87): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#15 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#16 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#18 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#19 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#20 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#21 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#22 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#39 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#40 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#41 F:\\study\\3-1\\2k20 Materials\\Lab\\CSE 3100 - Web Programming\\lab-10\\lab_work\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('F:\\\\study\\\\3-1\\\\2k...')
+#42 {main}
+"} 
